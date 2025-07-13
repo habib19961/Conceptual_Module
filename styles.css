@@ -19,6 +19,12 @@ border: none;
 color: white;
 font-weight: 500;
 }
+
+.common-section-title {
+    font-weight: 600px;
+    font-size: 36px;
+}
+
 /* Custom Css */
 nav {
     display: flex;
@@ -98,6 +104,10 @@ font-weight: bold;
 
 /* Category */
 
+.categories {
+    margin: 64px 0;
+}
+
 .categories-card-container {
     display: flex;
     gap: 26px;
@@ -120,21 +130,64 @@ font-weight: bold;
     font-size: 30px;
 }
 
-.category-card-1 {
+.category-card img {
+
+}
+
+.category-card:nth-child(1) {
     background: linear-gradient(151.85deg, 
     rgb(255, 156, 53) 14.537%,
     rgb(255, 208, 25) 84.486%);
 }
 
-.category-card-2 {
+.category-card:nth-child(2) {
     /* Linear */
     background: linear-gradient(180.00deg, 
     rgb(255, 88, 155) -0.006%,
     rgb(255, 19, 111) 99.994%);
 }
 
-.category-card-3 {
+.category-card:nth-child(3) {
     background: linear-gradient(170.38deg, 
     rgb(66, 137, 255) 15.416%,
     rgb(63, 7, 248) 74.29%);
+}
+
+
+
+/* Shoes and Bag Section */
+/* Shoes */
+
+.shoes-section {
+    background: rgb(244, 244, 244);
+    padding: 50px 0;
+}
+
+.shoe-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.shoe-card {
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+}
+
+.card-price {
+    display: block;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.shoe-card img {
+    width: 336px;
+    height: 202px;
+}
+
+.shoe-card .panda-btn {
+    background: black;
 }
