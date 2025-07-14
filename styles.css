@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -105,7 +106,7 @@ font-weight: bold;
 /* Category */
 
 .categories {
-    margin: 64px 0;
+    margin: 64px auto;
 }
 
 .categories-card-container {
@@ -156,6 +157,27 @@ font-weight: bold;
 
 
 /* Shoes and Bag Section */
+
+.shoes-backpack-parent {
+    background: rgb(244, 244, 244);
+}
+
+.shoes-backpack-section-title-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoes-backpack-section-title-parent p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #FF9D00;
+}
+
+.shoes-backpack-section-title-parent h2 {
+    font-weight: 600;
+    font-size: 36px;
+}
+
 /* Shoes */
 
 .shoes-section {
@@ -190,4 +212,29 @@ font-weight: bold;
 
 .shoe-card .panda-btn {
     background: black;
+}
+
+/* Contact */
+
+.contact-us-parent {
+    background-color: #FFF2F1;
+    text-align: center;
+    padding: 35px 20px;
+    margin: 35px auto;
+    border-radius: 15px;
+}
+
+.contact-input-btn-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-input-btn-parent input {
+    border: none;
+    padding: 15px 152px;
+}
+
+.contact-input-btn-parent .panda-btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
